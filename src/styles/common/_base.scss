@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+.button1 {
+  width: 60%;
+  padding: 10px;
+  background-color: var(--primary);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+}
+
+.input {
+  label p {
+    margin-bottom: 4px;
+  }
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}
+.form {
+  width: max-content;
+  background-color: var(--secondary);
+}
+.backgroundCenter {
+  // width: 500px;
+  // height: vh;
+  margin-top: 2%;
+  margin-bottom: 20%;
+  // background-color: var(--background);
+  display: flex;
+}
+
+.input-container {
+  position: relative;
+}
+.login-form {
+  width: 50%;
+}
+
+.icon-container {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.showCalendar {
+  margin-top: 10px;
+}
+.oboji {
+  background-color: aqua;
+}
+
+.notLoggedIn {
+  padding: 10px;
+}
+
+.firstRow {
+  display: flex;
+  padding: 9px;
+}
+.border {
+  border: solid black 1px;
+  margin: 0;
+  justify-content: center;
+}
+.border2 {
+  border: solid black 1px;
+  border-bottom: 0;
+  margin: 0;
+  justify-content: center;
+}
+.border3 {
+  border: solid black 1px;
+  border-top: 0;
+  margin: 0;
+  justify-content: center;
+}
+.table {
+  // width: max-content;
+  width: 100%;
+  overflow-x:auto ;
+  overflow-y: auto;
+  height: 500px;
+}
+.red {
+  display: flex;
+  flex-direction: row;
+  // width: 1500px;
+  width: 1500px;
+}
+
+.width10 {
+  width: 10%;
+  // width: 60px;
+}
+.width80 {
+  width: 80%;
+}
+.stickyCol {
+  position: sticky;
+  left: 0;
+  // top: 0;
+  z-index: 50;
+  background-color: var(--tablePrimary);
+}
+.stickyRow {
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  
+}
+.backgroundColor{
+  background-color: var(--tablePrimary);
+}
+.buttonNavigate{
+  margin-top: 3%;
+  width: 10%;
+
+}
